@@ -4,4 +4,64 @@ img {
 
 body {
     text-align: center;
+    font-family: "Garamond";
+    background-color: #C9CEBD;
+    color: #6C6061;
+}
+a {
+    color: inherit;
+}
+p {
+    font-weight: bolder;
+}
+
+.top-website {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+}
+.top-website h1{
+    color: #64403E;
+}
+.top-website h3{
+    color: chocolate;
+}
+.top-website img{
+    width: 150px;
+    border-radius: 40%;
+}
+
+.middle-website {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 10px
+}
+.middle-website p {
+    font-size: 30px;
+    padding: 0;
+    margin: 10px;
+}
+
+.bottom-website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #B2BCAA;
+}
+.bottom-website img {
+    border-radius: 30%;
+    border: 5px solid;
+    border-color: #838E83;
+    
 }
